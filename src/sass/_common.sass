@@ -1,0 +1,65 @@
+// # SHORT HOWTO
+// ## Sprites
+//     .whatever
+// 			+s(codedby) 
+// ## gradient example
+//     	+g(#232323, #5c5c5c);
+//	   horizontal
+//     	+gh(#232323, #5c5c5c);
+// ## making bw-images
+//     img
+//			@extend %gray
+// ## predefined media-queries: https://github.com/paranoida/sass-mediaqueries
+//     +r(320)
+//			display: none
+// +max-screen(1000), +iphone5, +iphone4, +ipad-retina, +ipad, +hdpi - also available
+//
+// ## use cycles
+//     @for $i from 1 through 3
+//       .item-#{$i}
+//			width: 2em * $i;
+//     @each $s in a,b,c
+// 	    	#{$s}
+//				display: none
+// ## fonts
+// Save fonts to /src/fonts
+// +font(book, cytiapro-black-webfont)
+// and create mixin
+// =book
+// 	font-family: "book", Arial, sans-serif
+
+body
+	font-family: Arial, sans-serif
+	line-height: 1.2
+	color: black
+	font-size: 16px
+	font-weight: 400
+	background-color: #FFF 
+h1, h2, h3, h4
+	color: black
+	font-family: Arial
+	font-size: 48px
+	font-weight: 700
+	line-height: 1
+	&.is-uppercase
+		text-transform: uppercase
+h1
+	margin-bottom: 30px
+h2
+	font-size: 32px
+h3
+	font-size: 24px
+	margin-bottom: 20px
+h4
+	font-size: 20px
+p
+	margin-bottom: 22px
+a
+	color: #006cd9
+	font-family: Arial
+	font-size: 16px
+	font-weight: 400
+	text-decoration: underline
+	&:hover
+		text-decoration: none
+// common blocks
