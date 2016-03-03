@@ -1,1 +1,23 @@
 // Normally mainpage styles
+.out
+	width: 1140px
+	margin: auto
+	padding: 0 20px
+.navigation
+	height: 40px
+	background-color: #f4ecea
+	background-image: linear-gradient(to top, #ff2e06 0%, #f89232 100%)
+	text-align: center
+	a
+		display: inline-block
+		color: white
+		font-family: Arial
+		font-size: 22px
+		font-weight: 700
+		line-height: 40px
+		text-decoration: none
+		padding: 0 35px
+		+tr(all 0.3s)
+		&:hover, a.is-active
+			background-color: black
+			background-image: linear-gradient(to top, black 0%, #555 100%)

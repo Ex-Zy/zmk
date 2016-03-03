@@ -34,35 +34,19 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 .container { *zoom: 1; }
 .container:after { content: " "; display: table; clear: both; }
 
-.container_pad { padding: 20px 0 20px 20px; }
+.container_pad { margin: 20px 0 20px 20px; }
 .container_pad [class*='col-']:last-of-type { padding-right: 20px; }
 
 [class*="col"] { float: left; padding-right: 20px; }
 [class*="col"]:last-of-type { padding-right: 0; }
 
-.col1 { width: 260px; }
+.col1 { width: 280px; }
 
-.col2 { width: 520px; }
+.col2 { width: 540px; }
 
-.col3 { width: 780px; }
+.col3 { width: 820px; }
 
-.col4 { width: 1040px; }
-
-.col5 { width: 1300px; }
-
-.col6 { width: 1560px; }
-
-.col7 { width: 1820px; }
-
-.col8 { width: 2080px; }
-
-.col9 { width: 2340px; }
-
-.col10 { width: 2600px; }
-
-.col11 { width: 2860px; }
-
-.col12 { width: 3120px; }
+.col4 { width: 1100px; }
 
 body { font-family: Arial, sans-serif; line-height: 1.2; color: black; font-size: 16px; font-weight: 400; background-color: #FFF; }
 
@@ -81,6 +65,12 @@ p { margin-bottom: 22px; }
 
 a { color: #006cd9; font-family: Arial; font-size: 16px; font-weight: 400; text-decoration: underline; }
 a:hover { text-decoration: none; }
+
+.out { width: 1140px; margin: auto; padding: 0 20px; }
+
+.navigation { height: 40px; background-color: #f4ecea; background-image: -webkit-gradient(linear, left bottom, left top, from(#ff2e06), to(#f89232)); background-image: -webkit-linear-gradient(bottom, #ff2e06 0%, #f89232 100%); background-image: linear-gradient(to top, #ff2e06 0%, #f89232 100%); text-align: center; }
+.navigation a { display: inline-block; color: white; font-family: Arial; font-size: 22px; font-weight: 700; line-height: 40px; text-decoration: none; padding: 0 35px; -webkit-transition: all 0.3s; transition: all 0.3s; }
+.navigation a:hover, .navigation a a.is-active { background-color: black; background-image: -webkit-gradient(linear, left bottom, left top, from(black), to(#555)); background-image: -webkit-linear-gradient(bottom, black 0%, #555 100%); background-image: linear-gradient(to top, black 0%, #555 100%); }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
 
