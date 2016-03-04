@@ -1,5 +1,14 @@
 $(document).ready(function() {
+	$blocks = $(".advantage__unit")
+		$buttons = $(".advantage__top .btn")
 
-	// go js
+		$buttons.click(function(event) {
+			if(!$(this).hasClass('is-active')){
+				$buttons.removeClass('is-active');
+				$blocks.hide();
 
+				$(this).addClass('is-active');
+				$('#'+$(this).data('target')).show();
+			}
+		});
 });
