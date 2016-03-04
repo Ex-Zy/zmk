@@ -3,7 +3,9 @@
 .container_pad
 	margin: 0 0 0 $pad
 	[class*='col-']:last-of-type
-		padding-right: $pad 
+		padding-right: $pad
+.row
+	margin: 0 -10px
 [class*="col"]
 	float: left
 	padding-right: $pad
@@ -12,10 +14,10 @@
 		padding-right: 0
 		// width: $col - $pad
 .col1
-	width: $col - 75
-.col2
-	width: $col - 50
-.col3
-	width: $col - 25
-.col4
 	width: $col
+.col2
+	width: $col*2
+.col3
+	width: $col*3
+.col4
+	width: $col*4
