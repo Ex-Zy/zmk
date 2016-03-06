@@ -1,8 +1,8 @@
 // Normally mainpage styles
 .out
-	width: 1140px
-	margin: auto
-	padding: 28px 20px
+	// width: 1140px
+	// margin: auto
+	// padding: 28px 20px
 .header
 	position: relative
 	h2
@@ -82,6 +82,9 @@
 			display: inline-block
 			position: relative
 			top: 1px
+.advantage
+	hr
+		margin: 45px 0 30px
 .advantage__top
 	position: relative
 	text-align: center
@@ -96,7 +99,8 @@
 .advantage__list
 	+clr
 	article
-		margin-bottom: 20px
+		&:not(:last-child)
+			margin-bottom: 20px
 	p
 		margin-bottom: 0
 	h3
@@ -109,3 +113,38 @@
 	display: none
 	&.is-active
 		display: block
+.company
+	position: relative
+	p
+		text-align: justify
+	ul
+		margin-top: 17px
+		li
+			margin-bottom: 10px
+		a
+			display: inline-block
+			vertical-align: middle
+		i
+			display: inline-block
+			vertical-align: middle
+			margin-right: 18px
+	hr
+		margin: 37px 0 29px
+.footer
+	position: relative
+	font-family: Arial
+	font-size: 13px
+	font-weight: 400
+.social
+	font-size: 0
+	a
+		display: inline-block
+		&:not(:last-child)
+			margin-right: 20px
+.footer__logo
+	+s(logo-ft)
+	display: block
+@each $s in vk, tw, fb, you, ins
+	.social__#{$s}
+		+s(#{$s})
+		
