@@ -1,8 +1,8 @@
 // Normally mainpage styles
 .out
-	// width: 1140px
-	// margin: auto
-	// padding: 28px 20px
+	width: 1140px
+	margin: auto
+	padding: 0 20px
 .main-pages-list
 	padding: 50px
 	list-style-type: decimal
@@ -10,30 +10,42 @@
 		font: bold 20px Arial, sans-serif
 .header
 	position: relative
+	+clr
 	h2
 		padding: 30px 0
 		clear: both
 		text-align: center
 .header__top-line
-	padding: 30px 0 20px
+	padding: 30px 0 15px
 .header__logo
 	+hide-text
 	+s(logo)
+	display: block
+.header__left
+	float: left
+	padding-top: 28px
+.header__right
+	width: 820px
+	float: right
+	font-size: 0
+.header__col
+	width: 33.3333%
 	display: inline-block
-	margin-top: 28px
+	vertical-align: middle
+	&:nth-last-child(1)
+		width: 34%
+	&:nth-last-child(2)
+		width: 32%
 .header__text
 	font-style: italic
 	font-family: Arial
 	font-size: 16px
-	display: inline-block
-	vertical-align: middle
-	padding: 0 83px 0 20px
+	padding: 0 20px 0 20px
 .header__tel
 	font-family: Arial
 	font-size: 24px
 	font-weight: 400
-	display: inline-block
-	vertical-align: middle
+	padding-bottom: 6px
 .navigation
 	height: 40px
 	background-color: #ff2e06
