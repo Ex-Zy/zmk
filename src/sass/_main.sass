@@ -92,7 +92,7 @@
 		font-weight: 400
 		color: #000
 		margin-bottom: 10px
-		&.is-dropdown
+		&.is-active
 			display: block
 		> li
 			display: none
@@ -103,6 +103,66 @@
 			display: inline-block
 			position: relative
 			top: 1px
+.slider-wrp
+	position: relative
+.slider-top
+	position: relative
+	img
+		max-width: 100%
+		height: auto
+		display: block
+	.slick-arrow
+		&:before
+			+hide-text
+	.slick-prev
+		margin-top: -32px
+		margin-left: 20px
+		+s(arrow-back)
+	.slick-next
+		margin-top: -32px
+		margin-right: 20px
+		+s(arrow-next)
+.slider-top__slide
+	position: relative
+.slider-nav
+	position: absolute
+	bottom: 20px
+	font-size: 0
+	width: 1060px
+	left: 0
+	right: 0
+	margin: auto
+.slider-nav__thumb
+	position: relative
+	width: 220px
+	height: 140px
+	opacity: 0.9
+	background-color: rgba(235, 234, 244, 0.7)
+	border: 5px solid white
+	text-align: center
+	display: inline-block
+	+vertical
+	&:not(:last-child)
+		margin-right: 60px
+	img
+		display: inline-block
+		vertical-align: middle
+		
+.slide-top__text
+	position: absolute
+	top: 42px
+	right: 40px
+	.title
+		color: white
+		font-family: Roboto
+		font-size: 40px
+		font-weight: 700
+		text-transform: uppercase
+	.description
+		color: white
+		font-family: Roboto
+		font-size: 24px
+		font-weight: 300
 .top-module
 	position: relative
 	text-align: center
@@ -121,7 +181,6 @@
 		text-shadow: 0.5px 0.9px 3px rgba(0, 0, 0, 0.35)
 		font-size: 18px
 		padding: 0 13px
-
 .advantage
 	hr
 		margin: 45px 0 30px
@@ -130,7 +189,7 @@
 	text-align: center
 	font-size: 0
 	h2
-		margin-bottom: 31px
+		margin: 39px 0 32px
 	.btn
 		margin: 0 10px 30px
 .advantage__text
