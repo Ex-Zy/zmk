@@ -27,6 +27,7 @@ $(document).ready(function() {
 	$buttons = $(".advantage__top .btn");
 
 	$buttons.click(function(event) {
+		event.preventDefault();
 		if(!$(this).hasClass('is-active')){
 			$buttons.removeClass('is-active');
 			$blocks.hide();
