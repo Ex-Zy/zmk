@@ -166,16 +166,19 @@
 		font-family: Roboto
 		font-size: 24px
 		font-weight: 300
-.top-module
+.top
 	position: relative
 	text-align: center
 	color: white
 	margin-top: 20px
-	.top-module__block
+	.top__block
 		min-height: 160px
-		background: url(../img/top-module-bg.jpg) no-repeat center top
 		background-size: cover
 		padding: 37px 0
+		&.top__block_module
+			background: url(../img/top-module-bg.jpg) no-repeat center top
+		&.top__block_company
+			background: url(../img/top-company-bg.jpg) no-repeat center top
 	h1
 		margin-bottom: 16px
 	ul
@@ -207,6 +210,15 @@
 		margin-bottom: 19px
 	.unit__desc
 		margin-bottom: 0
+.company-wrp
+	position: relative
+	width: 901px
+	margin: auto
+	padding: 48px 0 23px
+	p
+		text-align: justify
+		&:last-child
+			margin-bottom: 0
 .advantage
 	hr
 		margin: 45px 0 30px

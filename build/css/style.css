@@ -178,13 +178,15 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .slide-top__text .title { color: white; font-family: Roboto; font-size: 40px; font-weight: 700; text-transform: uppercase; }
 .slide-top__text .description { color: white; font-family: Roboto; font-size: 24px; font-weight: 300; }
 
-.top-module { position: relative; text-align: center; color: white; margin-top: 20px; }
-.top-module .top-module__block { min-height: 160px; background: url(../img/top-module-bg.jpg) no-repeat center top; background-size: cover; padding: 37px 0; }
-.top-module h1 { margin-bottom: 16px; }
-.top-module ul { font-size: 0; }
-.top-module li { display: inline-block; }
-.top-module li a { text-shadow: 0.5px 0.9px 3px rgba(0, 0, 0, 0.35); font-size: 18px; padding: 0 13px; color: #fff; text-decoration: none; }
-.top-module li a:hover { text-decoration: underline; }
+.top { position: relative; text-align: center; color: white; margin-top: 20px; }
+.top .top__block { min-height: 160px; background-size: cover; padding: 37px 0; }
+.top .top__block.top__block_module { background: url(../img/top-module-bg.jpg) no-repeat center top; }
+.top .top__block.top__block_company { background: url(../img/top-company-bg.jpg) no-repeat center top; }
+.top h1 { margin-bottom: 16px; }
+.top ul { font-size: 0; }
+.top li { display: inline-block; }
+.top li a { text-shadow: 0.5px 0.9px 3px rgba(0, 0, 0, 0.35); font-size: 18px; padding: 0 13px; color: #fff; text-decoration: none; }
+.top li a:hover { text-decoration: underline; }
 
 .module-wrp { width: 904px; margin: auto; padding: 43px 0 6px; }
 .module-wrp p { text-align: justify; }
@@ -193,6 +195,10 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .module__units .unit { display: inline-block; vertical-align: top; margin: 0 50px 20px; }
 .module__units .unit__pic { margin-bottom: 19px; }
 .module__units .unit__desc { margin-bottom: 0; }
+
+.company-wrp { position: relative; width: 901px; margin: auto; padding: 48px 0 23px; }
+.company-wrp p { text-align: justify; }
+.company-wrp p:last-child { margin-bottom: 0; }
 
 .advantage hr { margin: 45px 0 30px; }
 
