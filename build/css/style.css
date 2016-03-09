@@ -155,6 +155,10 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .company ul a { display: inline-block; vertical-align: middle; }
 .company ul i { display: inline-block; vertical-align: middle; margin-right: 18px; }
 
+.company__col1, .company__col2 { display: inline-block; vertical-align: top; width: 820px; padding-right: 40px; }
+
+.company__col2 { width: auto; padding-right: 0; }
+
 .footer { position: relative; font-family: Arial; font-size: 13px; font-weight: 400; }
 .footer hr { margin: 37px 0 29px; }
 .footer a { font-size: 13px; }
