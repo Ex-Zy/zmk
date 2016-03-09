@@ -123,14 +123,14 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 
 .container { padding: 0 20px; }
 
-.header { position: relative; *zoom: 1; }
+.header { position: relative; padding-top: 28px; *zoom: 1; }
 .header:after { content: " "; display: table; clear: both; }
 
-.header__top-line { padding: 30px 0 15px; }
+.header__top-line { padding: 0 0 15px; }
 
 .header__logo { font: 0/0 a; text-shadow: none; color: transparent; background-image: url("../img/icons.png"); width: 260px; height: 109px; background-position: 0px 0px; display: block; }
 
-.header__left { float: left; padding-top: 28px; }
+.header__left { float: left; }
 
 .header__right { width: 820px; float: right; font-size: 0; }
 
@@ -144,9 +144,10 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 
 .navigation { height: 40px; background-color: #ff2e06; background-image: -webkit-gradient(linear, left bottom, left top, from(#ff2e06), to(#f89232)); background-image: -webkit-linear-gradient(bottom, #ff2e06 0%, #f89232 100%); background-image: linear-gradient(to top, #ff2e06 0%, #f89232 100%); text-align: center; }
 .navigation a { display: inline-block; color: white; font-family: Arial; font-size: 22px; font-weight: 700; line-height: 40px; text-decoration: none; padding: 0 35px; -webkit-transition: all 0.3s; transition: all 0.3s; }
-.navigation a:hover, .navigation a a.is-active { background-color: #000; background-image: -webkit-gradient(linear, left bottom, left top, from(#000), to(#555)); background-image: -webkit-linear-gradient(bottom, #000 0%, #555 100%); background-image: linear-gradient(to top, #000 0%, #555 100%); }
+.navigation a:hover, .navigation a.is-active { background-color: #000; background-image: -webkit-gradient(linear, left bottom, left top, from(#000), to(#555)); background-image: -webkit-linear-gradient(bottom, #000 0%, #555 100%); background-image: linear-gradient(to top, #000 0%, #555 100%); }
 
-.select { position: relative; background-color: white; border: 2px solid #f1f1f1; -webkit-border-radius: 10px; border-radius: 10px; padding: 10px 10px 0; max-width: 230px; width: 100%; display: inline-block; vertical-align: middle; cursor: pointer; }
+.select { position: relative; background-color: white; border: 2px solid transparent; -webkit-border-radius: 10px; border-radius: 10px; padding: 10px 10px 0; max-width: 230px; width: 100%; display: inline-block; vertical-align: middle; cursor: pointer; }
+.select.is-dropdown { border-color: #f1f1f1; }
 .select:after { content: " "; display: block; position: absolute; z-index: 1; background-image: url("../img/icons.png"); width: 14px; height: 8px; background-position: -346px -206px; right: 25px; top: 23px; }
 .select li { display: none; font-family: Arial; font-size: 16px; font-weight: 400; color: #000; margin-bottom: 10px; }
 .select li.is-active { display: block; }
