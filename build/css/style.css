@@ -272,7 +272,10 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .main-map__nav a { display: inline-block; font-family: Arial; font-size: 15px; font-weight: 400; color: #000; -webkit-transition: all 0.2s; transition: all 0.2s; padding: 8px 13px 6px; line-height: 1; text-decoration: none; }
 .main-map__nav a:hover { color: #fff; background-color: #fe360a; }
 
-.main__items, .main__awards { position: relative; overflow: hidden; font-size: 0; }
+.main__items, .main__awards, .items__row { position: relative; overflow: hidden; font-size: 0; }
+
+.items__t { padding: 0 15px 20px; }
+.items__t h3 { display: inline-block; vertical-align: middle; margin-bottom: 0; }
 
 .item { display: inline-block; vertical-align: top; padding: 7px; width: 240px; margin: 0 20px 40px; min-height: 250px; background-color: white; border: 3px solid #555; text-decoration: none; }
 
@@ -310,6 +313,27 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .award__name { margin-bottom: 11px; }
 
 .award__desc { margin-bottom: 0; }
+
+.layout { position: relative; text-align: center; }
+.layout .container { padding: 19px 0 0; margin: 0 -20px; }
+.layout .col { display: inline-block; vertical-align: top; padding: 0 20px; }
+.layout .col1 { overflow: hidden; }
+.layout .col2 { width: 280px; }
+.layout .col2 p { word-spacing: -0.04em; letter-spacing: -0.01em; }
+.layout .col3 { width: 280px; }
+.layout .row { padding-bottom: 20px; }
+.layout .row h3 { display: inline-block; vertical-align: middle; margin-bottom: 0; }
+.layout p { text-align: justify; color: #000; font-family: Arial; font-size: 15px; font-weight: 400; }
+
+.simple-block { position: relative; }
+.simple-block p { text-align: left; letter-spacing: -0.01em; }
+
+.gallery { display: inline-block; position: relative; font-size: 0; padding-top: 50px; }
+
+.gallery__thumb { display: inline-block; vertical-align: top; margin: 20px 20px 0 0; }
+.gallery__thumb:last-child { margin-right: 0; }
+
+.square { width: 30px; height: 30px; background-color: #fe360a; display: inline-block; vertical-align: middle; margin-right: 21px; }
 
 .footer { position: relative; font-family: Arial; font-size: 13px; font-weight: 400; }
 .footer hr { margin: 37px 0 29px; }

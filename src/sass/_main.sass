@@ -350,10 +350,17 @@
 			color: #fff
 			background-color: $red
 .main__items,
-.main__awards
+.main__awards,
+.items__row
 	position: relative
 	overflow: hidden
 	font-size: 0
+.items__t
+	padding: 0 15px 20px
+	h3
+		display: inline-block
+		vertical-align: middle
+		margin-bottom: 0
 .item
 	display: inline-block
 	vertical-align: top
@@ -439,7 +446,60 @@
 	margin-bottom: 11px
 .award__desc
 	margin-bottom: 0
-
+.layout
+	position: relative
+	text-align: center
+	.container
+		padding: 19px 0 0
+		margin: 0 -20px
+	.col
+		display: inline-block
+		vertical-align: top
+		padding: 0 20px
+	.col1
+		overflow: hidden
+	.col2
+		width: $col
+		p
+			word-spacing: -0.04em
+			letter-spacing: -0.01em 
+	.col3
+		width: $col
+	.row
+		padding-bottom: 20px
+		h3
+			display: inline-block
+			vertical-align: middle
+			margin-bottom: 0
+	p
+		text-align: justify
+		color: #000
+		font-family: Arial
+		font-size: 15px
+		font-weight: 400
+.simple-block
+	position: relative
+	p
+		text-align: left
+		letter-spacing: -0.01em
+.gallery
+	display: inline-block
+	position: relative
+	font-size: 0
+	padding-top: 50px
+.gallery__thumb
+	display: inline-block
+	vertical-align: top
+	margin: 20px 20px 0 0
+	&:last-child
+		margin-right: 0
+.square
+	width: 30px
+	height: 30px
+	background-color: $red
+	display: inline-block
+	vertical-align: middle
+	margin-right: 21px
 
 
 
