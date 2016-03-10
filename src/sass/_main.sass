@@ -292,6 +292,8 @@
 		float: left
 		padding-left: 25px
 		margin-bottom: 0
+	.left-spacing
+		padding-left: 10px
 .main__tlist
 	float: right
 	font-size: 0
@@ -347,57 +349,58 @@
 		&:hover
 			color: #fff
 			background-color: $red
-.main__items
+.main__items,
+.main__awards
 	position: relative
 	overflow: hidden
 	font-size: 0
-	.item
-		display: inline-block
-		vertical-align: top
-		padding: 7px
-		width: $col - 40
-		margin: 0 20px 40px
-		min-height: 250px
-		background-color: white
-		border: 3px solid #555
-		text-decoration: none
-	.item__pic
-		position: relative
-		margin-bottom: 13px
-		img
-			display: block
-			max-width: 100%
-			height: auto
-		i
-			position: absolute
-			right: 10px
-			top: 10px
-	.item__desc
-		color: #000
-		font-family: Arial
-		font-size: 12px
-		font-weight: 400
-		white-space: nowrap
-		margin-bottom: 11px
-		+clr
-	.item__name
-		float: left
-	.item__year
-		float: right
-	.item__title
-		margin-bottom: 14px
-		text-transform: uppercase
-	.item__location
-		color: #000
-		font-family: Arial
-		font-size: 11px
-		font-weight: 400
-		padding-right: 26px
-		background: url(../img/location.png) no-repeat top right
-		display: inline-block
-		height: 20px
-		line-height: 20px
-		float: right
+.item
+	display: inline-block
+	vertical-align: top
+	padding: 7px
+	width: $col - 40
+	margin: 0 20px 40px
+	min-height: 250px
+	background-color: white
+	border: 3px solid #555
+	text-decoration: none
+.item__pic
+	position: relative
+	margin-bottom: 13px
+	img
+		display: block
+		max-width: 100%
+		height: auto
+	i
+		position: absolute
+		right: 10px
+		top: 10px
+.item__desc
+	color: #000
+	font-family: Arial
+	font-size: 12px
+	font-weight: 400
+	white-space: nowrap
+	margin-bottom: 11px
+	+clr
+.item__name
+	float: left
+.item__year
+	float: right
+.item__title
+	margin-bottom: 14px
+	text-transform: uppercase
+.item__location
+	color: #000
+	font-family: Arial
+	font-size: 11px
+	font-weight: 400
+	padding-right: 26px
+	background: url(../img/location.png) no-repeat top right
+	display: inline-block
+	height: 20px
+	line-height: 20px
+	float: right
 .main__bottom
 	position: relative
 	text-align: center
@@ -405,6 +408,37 @@
 		margin-bottom: 12px
 .main__cont
 	margin: 0 -10px
+.main__nav
+	position: relative
+	float: right
+	font-size: 0
+	padding: 15px 9px 0
+	a
+		display: inline-block
+		color: #000
+		font-family: Arial
+		font-size: 16px
+		padding: 0 12px
+		text-decoration: none
+		&.is-active
+			font-weight: 700
+.main__awards
+	padding-bottom: 62px
+	> h3
+		padding: 27px 10px 20px
+		margin-bottom: 0
+.award
+	display: inline-block
+	vertical-align: top
+	width: $col - 40
+	margin: 0 20px 28px
+	background-color: white
+.award__pic
+	margin-bottom: 19px
+.award__name
+	margin-bottom: 11px
+.award__desc
+	margin-bottom: 0
 
 
 
