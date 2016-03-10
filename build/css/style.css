@@ -357,7 +357,7 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .main-map__nav a { display: inline-block; font-family: Arial; font-size: 15px; font-weight: 400; color: #000; -webkit-transition: all 0.2s; transition: all 0.2s; padding: 8px 13px 6px; line-height: 1; text-decoration: none; }
 .main-map__nav a:hover { color: #fff; background-color: #fe360a; }
 
-.main__items, .main__awards, .items__row { position: relative; overflow: hidden; font-size: 0; }
+.main__content, .items__row { position: relative; overflow: hidden; font-size: 0; }
 
 .items__t { padding: 0 15px 20px; }
 .items__t h3 { display: inline-block; vertical-align: middle; margin-bottom: 0; }
@@ -382,7 +382,7 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .main__bottom { position: relative; text-align: center; }
 .main__bottom .btn { margin-bottom: 12px; }
 
-.main__cont { margin: 0 -10px; }
+.main__in { margin: 0 -10px; font-size: 0; }
 
 .main__nav { position: relative; float: right; font-size: 0; padding: 15px 9px 0; }
 .main__nav a { display: inline-block; color: #000; font-family: Arial; font-size: 16px; padding: 0 12px; text-decoration: none; }
@@ -419,6 +419,18 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .gallery__thumb:last-child { margin-right: 0; }
 
 .square { width: 30px; height: 30px; background-color: #fe360a; display: inline-block; vertical-align: middle; margin-right: 21px; }
+
+.brands { position: relative; margin: 0 -15px; padding: 27px 0 0; }
+
+.brand { display: inline-block; vertical-align: top; width: 280px; padding: 0 30px; margin-bottom: 30px; }
+
+.brands__title { padding: 0 30px; }
+
+.brand__pic { margin-bottom: 19px; }
+
+.brand__name { margin-bottom: 11px; }
+
+.brand__desc { margin-bottom: 0; }
 
 .footer { position: relative; font-family: Arial; font-size: 13px; font-weight: 400; }
 .footer hr { margin: 37px 0 29px; }
