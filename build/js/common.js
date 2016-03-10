@@ -21,4 +21,14 @@ $(document).ready(function() {
 		var id = $(this).index();
 		$('.slider-top').slick('slickGoTo', id);
 	});
+	$(".fancybox").fancybox({
+		openEffect	: 'elastic',
+		closeEffect	: 'elastic',
+
+		helpers : {
+			title : {
+				type : 'inside'
+			}
+		}
+	});
 });
