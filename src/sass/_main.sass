@@ -546,8 +546,17 @@
 		-ms-appearance: none
 		appearance: none !important
 		text-indent: 0.01px 
+		position: relative
 	select::-ms-expand
 		display: none
+	.arrow-bottom
+		position: relative
+		display: block
+		position: absolute
+		right: 19px
+		top: 15px
+		+arr(9, 5, #000, b)
+		pointer-events: none
 .pform__row
 	font-size: 0
 	&:not(:last-child)
@@ -555,6 +564,7 @@
 	[class^="col"]
 		display: inline-block
 		vertical-align: middle
+		position: relative
 	.col1
 		width: 25%
 		padding-right: 15px

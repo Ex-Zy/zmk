@@ -187,6 +187,8 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .icon-i-video { background-image: url("../img/icons.png"); width: 32px; height: 32px; background-position: -346px 0px; }
 
+.icon-down { background-image: url("../img/icons.png"); width: 14px; height: 8px; background-position: -346px -289px; }
+
 .btn { width: 260px; height: 40px; line-height: 40px; background-color: #ccc; color: #555; font-family: Arial; font-size: 18px; font-weight: 700; text-decoration: none; display: inline-block; text-align: center; position: relative; cursor: pointer; }
 .btn.btn_red { background-color: #fe360a; color: #fff; font-weight: 400; }
 .btn.is-active { background-color: #fe360a; color: #fff; }
@@ -443,12 +445,13 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .pform { position: relative; width: 720px; }
 .pform .btn { width: 140px; height: 40px; background-color: #5cb85c; border: 1px solid #4cae4c; -webkit-border-radius: 6px; border-radius: 6px; color: white; font-family: Arial; font-size: 16px; font-weight: 700; position: relative; }
 .pform .btn:active { top: 1px; }
-.pform select.input { -moz-appearance: none; -ms-appearance: none; -webkit-appearance: none !important; appearance: none !important; text-indent: 0.01px; }
+.pform select.input { -moz-appearance: none; -ms-appearance: none; -webkit-appearance: none !important; appearance: none !important; text-indent: 0.01px; position: relative; }
 .pform select::-ms-expand { display: none; }
+.pform .arrow-bottom { position: relative; display: block; position: absolute; right: 19px; top: 15px; width: 0px; height: 0px; border-style: solid; border-width: 5px 4.5px 0 4.5px; border-color: #000 transparent transparent transparent; pointer-events: none; }
 
 .pform__row { font-size: 0; }
 .pform__row:not(:last-child) { margin-bottom: 8px; }
-.pform__row [class^="col"] { display: inline-block; vertical-align: middle; }
+.pform__row [class^="col"] { display: inline-block; vertical-align: middle; position: relative; }
 .pform__row .col1 { width: 25%; padding-right: 15px; }
 .pform__row .col2 { width: 75%; }
 
