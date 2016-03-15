@@ -931,6 +931,6 @@ $(document).ready(function() {
 		}
 	});
 	$(".js-twentytwenty").twentytwenty({
-		default_offset_pct: 0.7,
+		default_offset_pct: 0.5
 	});
 });
