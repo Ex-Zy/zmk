@@ -4,4 +4,6 @@
 //=include lib/jquery.fancybox.pack.js
 //=include lib/jquery.fancybox-buttons.js
 //=include lib/jquery.jquery.fancybox-thumbs.js
+//=include lib/jquery.twentytwenty.js
+//=include lib/jquery.event.move.js
 //=include common.js
