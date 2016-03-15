@@ -457,6 +457,23 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 
 .pform__text { line-height: 20px; margin-bottom: 0; }
 
+.contact { position: relative; padding: 32px 0 69px; width: 900px; margin: auto; font-size: 16px; }
+.contact h4 { margin-bottom: 10px; }
+.contact b { margin-bottom: 22px; font-weight: 700; display: inline-block; }
+
+.contact__address { margin-bottom: 24px; }
+
+.contact__row { position: relative; font-size: 0; margin-bottom: 30px; }
+.contact__row span { line-height: 18px; }
+.contact__row .tel, .contact__row .mail { display: inline-block; vertical-align: top; width: 50%; font-size: 16px; }
+
+.contact__map { position: relative; }
+.contact__map img { margin-bottom: 26px; display: block; }
+
+.description { margin-bottom: 36px; font-size: 0; }
+.description .description__left, .description .description__right { display: inline-block; vertical-align: middle; width: 90%; font-size: 16px; }
+.description .description__left { width: 10%; }
+
 .footer { position: relative; font-family: Arial; font-size: 13px; font-weight: 400; }
 .footer hr { margin: 37px 0 29px; }
 .footer a { font-size: 13px; }
