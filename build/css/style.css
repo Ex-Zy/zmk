@@ -208,7 +208,7 @@ h2 { font-size: 32px; }
 
 h3 { font-size: 24px; margin-bottom: 20px; }
 
-h4 { font-size: 20px; }
+h4 { font-size: 20px; margin-bottom: 10px; }
 
 p { margin-bottom: 22px; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; }
 
@@ -475,6 +475,18 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .description { margin-bottom: 36px; font-size: 0; }
 .description .description__left, .description .description__right { display: inline-block; vertical-align: middle; width: 90%; font-size: 16px; }
 .description .description__left { width: 10%; }
+
+.list { position: relative; }
+.list.list_tpad { padding-top: 19px; }
+.list .list__row { padding: 0 20px; }
+.list h3 { display: inline-block; margin-bottom: 0; vertical-align: middle; }
+
+.personal-wrp { margin: 0 -10px; padding-bottom: 8px; }
+
+.personal { margin-top: 20px; padding-left: 20px; display: inline-block; vertical-align: top; width: 280px; padding: 0 30px; }
+.personal img { margin-bottom: 19px; }
+
+.personal__desc { font-size: 13px; }
 
 .footer { position: relative; font-family: Arial; font-size: 13px; font-weight: 400; }
 .footer hr { margin: 37px 0 29px; }
