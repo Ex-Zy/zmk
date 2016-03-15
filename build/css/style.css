@@ -365,6 +365,8 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 
 .main__content, .items__row { position: relative; overflow: hidden; font-size: 0; }
 
+.main__cont { margin: 0 -10px; }
+
 .items__t { padding: 0 15px 20px; }
 .items__t h3 { display: inline-block; vertical-align: middle; margin-bottom: 0; }
 
