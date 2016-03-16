@@ -438,7 +438,7 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 
 .main-map__nav { text-align: center; font-size: 0; margin-bottom: 27px; }
 .main-map__nav a { display: inline-block; font-family: Arial; font-size: 15px; font-weight: 400; color: #000; -webkit-transition: all 0.2s; transition: all 0.2s; padding: 8px 13px 6px; line-height: 1; text-decoration: none; }
-.main-map__nav a:hover { color: #fff; background-color: #fe360a; }
+.main-map__nav a:hover, .main-map__nav a.is-active { color: #fff; background-color: #fe360a; }
 
 .main__content, .items__row { position: relative; overflow: hidden; font-size: 0; }
 
