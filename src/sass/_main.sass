@@ -16,6 +16,8 @@
 	+clr
 .header__top-line
 	padding: 0 0 15px
+	display: table
+	width: 100%
 .header__logo
 	+hide-text
 	+s(logo)
@@ -28,8 +30,10 @@
 	font-size: 0
 .header__col
 	width: 33.3333%
-	display: inline-block
+	display: table-cell
 	vertical-align: middle
+	height: 54px
+	position: relative
 	&:nth-last-child(1)
 		width: 34%
 	&:nth-last-child(2)
@@ -43,7 +47,7 @@
 	font-family: Arial
 	font-size: 24px
 	font-weight: 400
-	padding-bottom: 6px
+	// padding-bottom: 6px
 .navigation
 	height: 40px
 	background-color: #ff2e06
@@ -63,23 +67,17 @@
 			background-color: #000
 			background-image: linear-gradient(to top, #000 0%, #555 100%)
 .select
-	position: relative
-	background-color: white
-	border: 2px solid transparent
-	border-radius: 10px
-	padding: 10px 10px 0
+	position: absolute
+	top: 0
 	max-width: 230px
 	width: 100%
-	display: inline-block
-	vertical-align: middle
+	height: 100%
 	cursor: pointer
-	&.is-dropdown
-		border-color: #f1f1f1
 	&:after
 		content: ' '
 		display: block
 		position: absolute
-		z-index: 1
+		z-index: 20
 		+s(down)
 		right: 25px
 		top: 23px
@@ -90,10 +88,10 @@
 		font-weight: 400
 		color: #000
 		margin-bottom: 10px
+		&:last-child
+			margin-bottom: 0
 		&.is-active
 			display: block
-		> li
-			display: none
 		i
 			vertical-align: middle
 			margin-right: 11px
@@ -101,6 +99,24 @@
 			display: inline-block
 			position: relative
 			top: 1px
+.dropdown
+	border: 2px solid transparent
+	border-radius: 10px
+	padding: 10px
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	background-color: #fff
+	z-index: 10
+	&.is-open
+		border-color: #f1f1f1
+		li
+			display: block
+			&.is-active
+				margin-bottom: 10px
+	li.is-active
+		margin-bottom: 0
 .t-title
 	padding: 30px 0
 	clear: both

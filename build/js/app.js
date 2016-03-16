@@ -933,4 +933,22 @@ $(document).ready(function() {
 	$(".js-twentytwenty").twentytwenty({
 		default_offset_pct: 0.57
 	});
+
+
+	$('.js-dropdown li').on('click', function(e){
+		var parent = $(this).parents('.js-dropdown');
+		var lis = parent.find('li');
+
+		if (!parent.hasClass('is-open')) {
+			parent.addClass('is-open');
+			return;
+		}
+
+		lis.removeClass('is-active');
+		$(this).addClass('is-active');
+
+		parent.removeClass('is-open');
+
+		e.stopPropagation();
+	})
 });
