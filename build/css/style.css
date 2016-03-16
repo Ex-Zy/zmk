@@ -363,7 +363,7 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .top ul { font-size: 0; }
 .top li { display: inline-block; }
 .top li a { text-shadow: 0.5px 0.9px 3px rgba(0, 0, 0, 0.35); font-size: 18px; padding: 0 13px; color: #fff; text-decoration: none; }
-.top li a:hover { text-decoration: underline; }
+.top li a:hover, .top li a.is-active { text-decoration: underline; }
 
 .module-wrp { width: 904px; margin: auto; padding: 43px 0 6px; }
 .module-wrp p { text-align: justify; }
@@ -558,12 +558,15 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 
 .personal__desc { font-size: 13px; }
 
-.module-desc { position: relative; }
-.module-desc .list { padding: 30px 150px 43px 50px; }
-.module-desc .list__row { margin-bottom: 30px; padding: 0; }
-.module-desc p { text-align: justify; }
+.module-desc { position: relative; padding: 30px 0 10px; }
+.module-desc .list { width: 900px; margin: auto; }
+.module-desc .list li { margin-bottom: 30px; }
+.module-desc .list__row { padding: 0; position: relative; }
+.module-desc .list__row:before { content: " "; display: block; position: absolute; left: -50px; bottom: 0; width: 30px; height: 30px; background-color: #fe3f07; }
+.module-desc .list__row h3 { margin-bottom: 30px; }
+.module-desc p { text-align: justify; margin-bottom: 0; }
 
-.list__module { border: 4px solid #e2e2e2; text-align: center; height: 360px; overflow: hidden; padding: 20px 0; }
+.list__module { border: 4px solid #e2e2e2; text-align: center; height: 360px; overflow: hidden; padding: 20px 0; margin-bottom: 30px; }
 .list__module img { left: 0; top: 0; bottom: 0; right: 0; margin: auto; }
 .list__module .twentytwenty-overlay { display: none; }
 .list__module .twentytwenty-overlay:hover { background: none; }
@@ -573,7 +576,10 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .list__module .twentytwenty-handle:before, .list__module .twentytwenty-handle:after { -webkit-box-shadow: none; box-shadow: none; background: #e2e2e2; }
 
 .table-option { table-layout: fixed; }
-.table-option td { width: 180px; vertical-align: top; }
+.table-option tr:not(:last-child) td { padding-bottom: 18px; }
+.table-option td { vertical-align: top; }
+.table-option td:nth-child(1), .table-option td:nth-child(3) { width: 177px; }
+.table-option td:nth-child(2) { width: 280px; }
 
 .category { position: relative; font-size: 0; }
 
