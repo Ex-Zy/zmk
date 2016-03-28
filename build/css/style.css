@@ -305,6 +305,10 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .out_module-view .top { margin-top: 22px; }
 .out_module-view .module-desc { padding: 36px 0 10px; }
 
+.out_portfolio .main__tlist { max-width: 425px; width: 100%; padding-top: 20px; }
+.out_portfolio .main-map__top { padding: 17px 0 15px; }
+.out_portfolio .main-map__wrp { margin-bottom: 12px; }
+
 .main-pages-list { padding: 50px; list-style-type: decimal; }
 .main-pages-list li, .main-pages-list a { font: bold 20px Arial, sans-serif; }
 
@@ -435,6 +439,7 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 
 .main__tlist { float: right; font-size: 0; padding-top: 16px; }
 .main__tlist li { display: inline-block; vertical-align: top; margin-right: 43px; }
+.main__tlist li:last-child { margin-right: 0; }
 .main__tlist a { display: inline-block; vertical-align: middle; font-size: 16px; color: #000; text-decoration: none; }
 .main__tlist a i { margin-right: 20px; display: inline-block; vertical-align: middle; }
 

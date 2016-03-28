@@ -35,7 +35,6 @@ $(document).ready(function() {
 		default_offset_pct: 0.57
 	});
 
-
 	$('.js-dropdown li').on('click', function(e){
 		var parent = $(this).parents('.js-dropdown');
 		var lis = parent.find('li');
