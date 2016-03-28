@@ -412,8 +412,8 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .module__units .unit__pic { margin-bottom: 19px; }
 .module__units .unit__desc { margin-bottom: 0; }
 
-.company-wrp { position: relative; width: 901px; margin: auto; padding: 48px 0 23px; }
-.company-wrp p { text-align: justify; }
+.company-wrp { position: relative; width: 901px; margin: auto; padding: 41px 0 23px; }
+.company-wrp p { text-align: justify; margin-bottom: 20px; }
 .company-wrp p:last-child { margin-bottom: 0; }
 
 .advantage hr { margin: 45px 0 30px; }
