@@ -309,6 +309,13 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .out_portfolio .main-map__top { padding: 17px 0 15px; }
 .out_portfolio .main-map__wrp { margin-bottom: 12px; }
 
+.out_portfolio-cart .main__top .left-spacing { padding-left: 20px; }
+.out_portfolio-cart .layout .square { margin-right: 13px; }
+.out_portfolio-cart .simple-block { margin-bottom: 18px; }
+.out_portfolio-cart .simple-block img { margin-bottom: 11px; }
+.out_portfolio-cart .simple-block p { margin-bottom: 0; }
+.out_portfolio-cart .items__t { padding: 4px 19px 20px; }
+
 .main-pages-list { padding: 50px; list-style-type: decimal; }
 .main-pages-list li, .main-pages-list a { font: bold 20px Arial, sans-serif; }
 
