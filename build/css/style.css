@@ -329,6 +329,7 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .out_ourpartners .main__content { margin-bottom: -15px; overflow: hidden; }
 
 .out_awards .main__nav { padding: 19px 6px 0; }
+.out_awards .main__awards > h3 { padding: 24px 21px 20px; }
 
 .main-pages-list { padding: 50px; list-style-type: decimal; }
 .main-pages-list li, .main-pages-list a { font: bold 20px Arial, sans-serif; }
@@ -513,13 +514,13 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .main__awards { padding-bottom: 62px; }
 .main__awards > h3 { padding: 27px 10px 20px; margin-bottom: 0; }
 
-.award { display: inline-block; vertical-align: top; width: 240px; margin: 0 20px 28px; background-color: white; }
+.award { display: inline-block; vertical-align: top; width: 240px; margin: 0 20px 28px; background-color: white; text-align: center; }
 
 .award__pic { margin-bottom: 19px; }
 
-.award__name { margin-bottom: 11px; }
+.award__name { margin-bottom: 7px; text-align: left; padding-left: 10px; }
 
-.award__desc { margin-bottom: 0; }
+.award__desc { margin-bottom: 0; text-align: left; padding-left: 10px; font-size: 12px; }
 
 .layout { position: relative; }
 .layout .container { padding: 19px 0 0; margin: 0 -5px; }
