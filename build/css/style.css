@@ -438,8 +438,8 @@ hr { height: 5px; background-color: #666; display: block; width: 100%; border: 0
 .advantage__item:not(:last-child) { margin-bottom: 20px; }
 .advantage__item p { margin-bottom: 0; white-space: normal; }
 .advantage__item h3 { margin-bottom: 7px; white-space: normal; }
-.advantage__item i { display: inline-block; vertical-align: middle; margin-right: 22px; width: 80px; height: 80px; }
-.advantage__item i img { max-width: 100%; height: auto; display: block; }
+.advantage__item .icon { display: inline-block; vertical-align: middle; margin-right: 22px; width: 80px; height: 80px; }
+.advantage__item .icon img { max-width: 100%; height: auto; display: block; }
 
 .advantage__unit { display: none; font-size: 0; }
 .advantage__unit.is-active { display: block; }
